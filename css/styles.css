@@ -1,4 +1,5 @@
 /* GLobal  */
+@import url('https://fonts.googleapis.com/css?family=Lobster|Playfair+Display|Raleway');
 
 .container-fluid{
   padding: 0;
@@ -67,3 +68,105 @@
     color: #f7f7f7;
     font-size: 16px;
   }
+
+  /* Our Storey Section */
+
+  #our_story, #review, #contact {
+    min-height: 600px;
+  }
+
+  #our_story .row {
+    margin-top: 30px;
+  }
+
+  #our_story h1 {
+    font-family: 'Lobster', serif;
+    color: #f8512f
+    font-stretch: 6em;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#our_story h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  margin-top: 0;
+}
+
+#our_story p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.story_year {
+  font-family: 'Playfair Display', serif;
+  font-size:200px;
+  font-weight:700;
+  z-index: -1;
+  position: absolute;
+  color: rgba(`49, 147, `47, 0.2);
+}
+
+.navbar-default .navbar-nav li a:hover,.navbar-default .navbar-nav li a:focus {
+  color: #f8512f
+  background-color: rgba(17, 17, 17. .2);
+
+.navbar-default {
+  background-color: tansparent;
+  border-color: transparent;
+}
+
+.nav le a:hover {
+  background-color: transparent;
+}
+
+.navbar-brand > img {
+  margin-top: -7px;
+}
+
+nav .navbar
+  position: absolute;
+  top: 100;
+  right: 0;
+  left:0;
+  z-index: 20;
+}
+
+/* Review Section */
+
+#review {
+  background-image: url('../img/food_review.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#review .center {
+  margin: 0 auto;
+  float: none;
+  background-color: rgba(20, 20, 20, .6);
+  padding: 10px;
+  margin-top: 145px;
+  border-right: 5px;
+}
+
+#review h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 5em;
+  -webkit-color: #58512f;
+  color: #58512f;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#reveiw p {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#our_story h1,
+#review h1,
+#review p {
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
